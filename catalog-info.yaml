@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: new-accelerator-dy
+  description: Tanzu Java new accelerator dy 
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - web
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=new-accelerator-dy'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
